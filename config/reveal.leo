@@ -21,7 +21,7 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20181015140809.1" a="E"><vh>投影片-1</vh>
@@ -308,8 +308,8 @@ $$I = \int \rho R^{2} dV$$
 
 ### 虎科大機械設計工程系
 
-*CMSimfly 操作
-*Onshape 操作
+*[CMSimfly](https://chiamingyen.github.io/cmsimfly/content/index.html) 操作
+*[Onshape](https://www.onshape.com/) 操作
 
 &lt;small&gt;
 Created by [KMOLab](http://lab.kmol.info/)
@@ -318,7 +318,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 
 
-#### 簡報製作人:鄭竣元</t>
+#### 簡報製作人:鄭竣元
+
+</t>
 <t tx="leo.20181016204326.1">
 ## 導入影片 template
 
