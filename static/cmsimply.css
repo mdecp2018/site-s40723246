@@ -1,5 +1,7 @@
 .container {
   position: relative;
+  background-image: url(http://p1.pstatp.com/origin/2a4100008d310b5fd8a8); width: 1920px;    height: 1080px;
+  background-size:100%
 }
 header{
   background-image: url(http://photo.loveyd.com/uploads/allimg/080714/15122410.jpg);
@@ -202,5 +204,6 @@ width: 195px;
 }
 body {
   margin-bottom: 120px;
+
 }
 
