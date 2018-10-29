@@ -10,7 +10,7 @@
 2018 計算機程式教材:http://mde.tw/cp2018/content/
 
 2018fall
-2018 Fall 計算機程式與電腦輔助設計實習課程分組倉儲
+2018 Fall 計算機程式與電腦輔助實習分組倉儲
 
 http://mdecourse.github.io/2018fall/
 
