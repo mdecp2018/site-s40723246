@@ -6,8 +6,11 @@
 
 部落格:https://mdecp2018.github.io/site-s40723246/blog/
 
+<<<<<<< HEAD
 2018 計算機程式教材:http://mde.tw/cp2018/content/
 
+=======
+>>>>>>> 60de77bb9239aa69f0526a323cee924e0fb3a26e
 # 2018fall
 
 2018 Fall 計算機程式與電腦輔助實習分組倉儲http://mdecourse.github.io/2018fall/
