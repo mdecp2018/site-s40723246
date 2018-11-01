@@ -116,7 +116,7 @@ ul#css3menu1 a{
 	text-align:left;
 	text-decoration:none;
 	font:17px Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
-	color:#000000;
+	color:#24d23b;
 	cursor:pointer;
 	padding:7px 12px;
 	background-color:;
@@ -132,12 +132,12 @@ ul#css3menu1 ul li{
 ul#css3menu1 ul a{
 	text-align:left;
 	padding:7px;
-	background-color:#A2D890;
+	background-color:#0e0e0e;
 	border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	font:14px Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
-	color:#000000;
+	color:#f30831;
 	text-decoration:none;
 }
 ul#css3menu1 li:hover>a,ul#css3menu1 li a.pressed{
