@@ -1,10 +1,10 @@
 <h1>簡介</h1>
-<p>2018 Fall 計算機程式與電腦輔助設計實習課程分組網站</p>
-<p>40723246專屬網站</p>
-<p><a href="https://www.google.com.tw">google</a></p>
-<p><a href="http://mde.tw/#/">mde.tw</a></p>
-<p><a href="https://www.youtube.com">youtube</a></p>
-<h2>CMSimfly 網站</h2>
+<p style="text-align: center;">2018 Fall 計算機程式與電腦輔助設計實習課程分組網站</p>
+<p style="text-align: center;"><strong>40723246</strong>專屬網站 四設計一乙&nbsp;<strong> 鄭竣元</strong></p>
+<p style="text-align: center;"><span style="color: #ff0000;"><a href="https://www.google.com.tw" style="color: #ff0000;">最強搜尋網站&nbsp; google</a></span></p>
+<p style="text-align: center;"><span style="color: #ff0000;"><a href="https://www.youtube.com" style="color: #ff0000;">最強影片收錄網站youtube</a></span></p>
+<p style="text-align: center;"><span style="color: #ff0000;"><a href="http://mde.tw/#/" style="color: #ff0000;">最強計概學生網站 mde.tw</a></span></p>
+<p style="text-align: center;"></p><h2>CMSimfly 網站</h2>
 <p>各組必須自行更改 Config 中的網站標題, 且每次完成近端動態網頁編輯後, 以 generate_pages 按鈕, 將動態網頁資料轉為靜態網頁資料, 之後再新增、提交並推送到遠端倉儲.</p><h2>reveal 投影片</h2>
 <p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/reveal.leo</p>
 <p><a href="https://mdecp2018.github.io/site-s40723246/reveal/">我的revel</a></p><h2>pelican 網誌</h2>
@@ -13,24 +13,102 @@
 <p>更改 @edit publishconf.py 中的 SITEURL</p>
 <p><a href="https://mdecp2018.github.io/site-s40723246/blog/">我的blog</a></p>
 <p></p><h1>python 練習</h1>
-<h2>Ex-1</h2>
-<h2>Ex-2</h2>
-<p></p><h1>git 指令</h1>
-<p>在 <span style="color: #ff0000;">c:tmp</span> 目錄中建立一個test_repo 目錄</p>
-<p><span style="color: #ff0000;">cd ..</span>&nbsp; 指令是返回前個動作</p>
-<p>打&nbsp;<span style="color: #ff0000;">D:</span> 就會進入D槽 打<span style="color: #ff0000;"> E:</span> 就會進入E槽</p>
-<p><span style="color: #ff0000;">python wsgi.py</span> 動態擷取系統</p>
-<p><span style="color: #ff0000;">git status&nbsp;<span style="color: #000000;">檢視修改</span></span></p>
-<p><span style="color: #ff0000;">git add .&nbsp;<span style="color: #000000;">將檔案納入追蹤</span></span></p>
-<p><span style="color: #ff0000;"><span style="color: #000000;"><span style="color: #ff0000;">git pull</span> 靜動態整合</span></span></p>
-<p><span style="color: #000000;"><span style="color: #ff0000;">git commit -m<span style="color: #ff0000;"> "initial"</span></span>將檔案提交</span></p>
-<p><span style="color: #000000;"><span style="color: #ff0000;">git push</span> 上傳檔案</span></p><h1>組員操作影片</h1>
+<p><strong>基本觀念</strong></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># (中文註解)
+
+# 布林值
+# (true)(false) 
+
+# 沒有順序的集合
+# (set)
+# {3，4，5，6}
+
+# 不可動列表
+# (1，2，3)
+# ("Hello"，"World")
+
+# 可動列表
+# 【1，2，3】
+# 【"Hello"，"World"】
+
+# 字串
+"s40723246 網站"
+
+# 字典
+{"apple"，"蘋果"}
+{"banana"，"香蕉"}
+
+# 變數:用來資料save的自訂名稱
+
+# 變數名稱=資料
+</pre>
+<p><img src="/images/擷取.PNG" width="540" height="230" alt=""></p><h2>Ex-1</h2>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 列印
+
+# 連接文字可用+或空格
+s="Hey"+"Man"
+print(s)
+
+# \跳脫文字
+s="Hell\"o"
+print(s)
+
+# 換行\n
+s="Hello\nEveryone"
+print(s)
+s="Hi"+"Man"
+print(s)
+
+# 重複字詞
+s="apple"*4
+print(s)
+
+# 重複字詞結合
+s="app"*3+"good"
+print(s)</pre>
+<p><img src="/images/擷取.000.PNG" width="436" height="418" alt=""></p><h2>Ex-2</h2>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 列印字詞中的特定字
+
+s="早上天氣真好"
+print(s[0])
+
+s="早上天氣真好"
+print(s[2])
+
+s="早上天氣真好"
+print(s[1:4])
+
+s="早上天氣真好"
+print(s[2:6])
+
+s="早上天氣真好"
+print(s[:5])
+
+s="早上天氣真好"
+print(s[1:])</pre>
+<p><img src="/images/擷取.PN.PNG" width="496" height="464" alt=""></p><h1>git 指令</h1>
+<p style="text-align: center;"><strong><span style="color: #00ff00;">開啟網站至上傳檔案</span></strong></p>
+<p style="text-align: center;">在 <span style="color: #ff0000;">c:tmp</span> 目錄中建立一個test_repo 目錄</p>
+<p style="text-align: center;"><span style="color: #ff0000;">cd ..</span>&nbsp; 指令是返回前個動作</p>
+<p style="text-align: center;">打&nbsp;<span style="color: #ff0000;">D:</span> 就會進入D槽 打<span style="color: #ff0000;"> E:</span> 就會進入E槽</p>
+<p style="text-align: center;"><span style="color: #ff0000;">python wsgi.py</span> 動態擷取系統</p>
+<p style="text-align: center;"><span style="color: #ff0000;">git status&nbsp;<span style="color: #000000;">檢視修改資料</span></span></p>
+<p style="text-align: center;"><span style="color: #ff0000;">git add .&nbsp;<span style="color: #000000;">將檔案納入追蹤儲存</span></span></p>
+<p style="text-align: center;"><span style="color: #ff0000;"><span style="color: #000000;"><span style="color: #ff0000;">git pull</span> 靜動態整合</span></span></p>
+<p style="text-align: center;"><span style="color: #000000;"><span style="color: #ff0000;">git commit -m<span style="color: #ff0000;"> "initial"</span></span>將檔案提交及提交名子</span></p>
+<p style="text-align: center;"><span style="color: #000000;"><span style="color: #ff0000;">git push</span> 上傳檔案</span></p>
+<p style="text-align: center;"><strong><span style="color: #00ff00;">分支指令</span></strong></p>
+<p style="text-align: center;">&nbsp;<span style="color: #ff0000;">git branch</span>&nbsp;查看分支</p>
+<p style="text-align: center;"><span style="color: #ff0000;">git branch name&nbsp;</span>創建分支</p>
+<p style="text-align: center;"><span style="color: #ff0000;">git checkout name</span>&nbsp; 切換分支&nbsp; &nbsp;&nbsp;</p>
+<p style="text-align: center;"><span style="color: #ff0000;">git checkout -b name</span>&nbsp;創建分支並切換到分支上</p>
+<p style="text-align: center;"><span style="color: #ff0000;">git merge name</span> 合併指定分支到當前分支上</p>
+<p style="text-align: center;">&nbsp; <span style="color: #ff0000;">git branch -d name</span> 合併後刪除分支</p><h1>組員操作影片</h1>
 <p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p>
 <h2>Week1</h2>
-<p><span>國立虎尾科技大學機械設計工程系計算機程式 - 一乙第八週第三部分, 說明如何利用 Eric6 IDE 建立所需的 calculator 計算機程式對話表單. 過程中主要學習如何啟動 Eric6, 如何建立 Eric6 專案, 如何切換 Sources tab 與 Form tab, 如何在進入 Qt Designer 後利用格點布局, 建立按鈕與 Line Edit 部件.</span></p>
 <p></p>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/g4ksXq7sQ4M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></p>
-<p><img src="/images/15122410.jpg" width="555" height="348" alt=""></p><h2>week2</h2>
+<p></p>
+<p></p><h2>week2</h2>
 <p>練習過程</p>
 <p><iframe width="560" height="314" src="//www.youtube.com/embed/17q8VW3hAzM" allowfullscreen="allowfullscreen"></iframe></p>
 <p></p>
@@ -41,10 +119,7 @@
 <p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p><h2>week3</h2>
 <p>上傳revel</p>
 <p><iframe width="560" height="314" src="//www.youtube.com/embed/cnXPEF2qxDA" allowfullscreen="allowfullscreen"></iframe></p>
-<p><img src="/images/week3.png" width="496" height="346" alt=""></p><h2>week4</h2>
-<p>更改revel內容加更改影片</p>
-<p><iframe width="560" height="314" src="//www.youtube.com/embed/V0q2vJh5hqE" allowfullscreen="allowfullscreen"></iframe></p>
-<p><img src="/images/chrome_2018-10-08_21-38-29.png" width="802" height="702" alt=""></p><h2>week5</h2>
+<p><img src="/images/week3.png" width="496" height="346" alt=""></p><h2>week4</h2><p>更改revel內容加更改影片</p><p><iframe width="560" height="314" src="//www.youtube.com/embed/V0q2vJh5hqE" allowfullscreen="allowfullscreen"></iframe></p><p><img src="/images/chrome_2018-10-08_21-38-29.png" width="440" height="385" alt=""></p><h2>week5</h2>
 <p><img src="/images/chrome_2018-10-08_21-38-45.png" width="693" height="491" alt=""></p>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"></pre>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false"># 有順序可動列表
@@ -66,16 +141,16 @@ print(x)
 x=2**3
 print(x)
 </pre>
-<p></p><h2>week6</h2>
+<p><img src="/images/擷取.PNG" width="481" height="205" alt=""></p><h2>week6</h2>
 <p>自己學習python程式</p>
 <p>#碰到的問題: 自己去Python官方下載python程式，來練習打程式，將練習的部分拍成影片要上傳，發現自己下載python的會和P37衝突，導致沒辦法開啟P37。</p>
 <p>#解決辦法: 把自己下載的刪除掉，打開P37，就能上傳了。</p>
 <p><iframe width="560" height="314" src="//www.youtube.com/embed/ll_NRu4GPmI" allowfullscreen="allowfullscreen"></iframe></p><h2>week7</h2>
 <p>如何更改背景圖片</p>
-<p>1.先開啟staic</p>
-<p>2.</p>
-<p>3.</p>
-<p>4.</p>
+<p>1.先開啟staic 再開cmsimply.css</p>
+<p>2.拖進Scite&nbsp; &nbsp;在第一條container打background-image:&nbsp; url()</p>
+<p>3.再加上width: 1px;&nbsp; &nbsp;及height: 1px;&nbsp; &nbsp; 調整背景大小</p>
+<p>4.背景不能填滿 再至Scite最後一條Body調整倍率???%</p>
 <p><iframe width="560" height="314" src="//www.youtube.com/embed/ZZs8gcBveWE" allowfullscreen="allowfullscreen"></iframe></p><h2>week8</h2>
 <p><br><br><br></p><h1>OnShape 手冊</h1>
 <p><a href="https://www.onshape.com/">https://www.onshape.com/</a>&nbsp;</p>
@@ -83,6 +158,7 @@ print(x)
 <h1>Fusion 360</h1>
 <p><a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators">https://www.autodesk.com/products/fusion-360/students-teachers-educators</a>&nbsp;</p>
 <p></p><h1>my music</h1>
+<p><strong>興趣 喜歡的音樂</strong></p>
 <p>歌名:&nbsp;<yt-formatted-string class="style-scope ytd-video-primary-info-renderer">싸운날 - 볼빨간 사춘기</yt-formatted-string></p>
 <p><iframe width="560" height="314" src="//www.youtube.com/embed/1ri7I32Auhg" allowfullscreen="allowfullscreen"></iframe></p>
 <p>歌名:&nbsp;<yt-formatted-string class="style-scope ytd-video-primary-info-renderer">IU(아이유) _ BBIBBI(삐삐)</yt-formatted-string></p>
@@ -91,8 +167,7 @@ print(x)
 <p><iframe width="560" height="314" src="//www.youtube.com/embed/vecSVX1QYbQ" allowfullscreen="allowfullscreen"></iframe></p>
 <p>歌名:&nbsp;<yt-formatted-string class="style-scope ytd-video-primary-info-renderer">WINNER - &lsquo;REALLY REALLY&rsquo;</yt-formatted-string></p>
 <p><iframe width="560" height="314" src="//www.youtube.com/embed/4tBnF46ybZk" allowfullscreen="allowfullscreen"></iframe></p>
-<p></p>
-<h2>blackpink</h2>
+<p></p><h2>blackpink</h2>
 <p>簡單介紹</p>
 <p><b>BLACKPINK</b>（風格化為<b>BL&Lambda;ƆKPIИK</b>，<a href="https://zh.wikipedia.org/wiki/%E9%9F%93%E8%AA%9E" class="mw-redirect" title="韓語">韓語</a>：<span lang="ko">블랙핑크</span>，<a href="https://zh.wikipedia.org/wiki/%E6%97%A5%E8%AA%9E" class="mw-redirect" title="日語">日語</a>：<span lang="ja">ブラック・ピンク</span>）是<a href="https://zh.wikipedia.org/wiki/YG%E5%A8%9B%E6%A8%82" title="YG娛樂">YG娛樂</a>於2016年推出的<span style="color: #ff0000;"><a href="https://zh.wikipedia.org/wiki/%E9%9F%93%E5%9C%8B" class="mw-redirect" title="韓國" style="color: #ff0000;">韓國</a><a href="https://zh.wikipedia.org/wiki/%E5%A5%B3%E5%AD%90%E9%9F%B3%E6%A8%82%E7%B5%84%E5%90%88" class="mw-redirect" title="女子音樂組合" style="color: #ff0000;">女子音樂組合</a></span>，也是繼2009年<a href="https://zh.wikipedia.org/wiki/2NE1" title="2NE1">2NE1</a>後該經紀公司時隔7年再次推出的女子偶像團體，由<span style="color: #ff0000;"><a href="https://zh.wikipedia.org/wiki/%E9%87%91%E6%99%BA%E7%A7%80_(%E6%AD%8C%E6%89%8B)" title="金智秀 (歌手)" style="color: #ff0000;">Jisoo</a></span>、<span style="color: #ff0000;"><a href="https://zh.wikipedia.org/wiki/Jennie_(%E9%9F%93%E5%9C%8B%E6%AD%8C%E6%89%8B)" title="Jennie (韓國歌手)" style="color: #ff0000;">Jennie</a></span>、<span style="color: #ff0000;"><a href="https://zh.wikipedia.org/wiki/Ros%C3%A9_(%E9%9F%93%E5%9C%8B%E6%AD%8C%E6%89%8B)" title="Ros&eacute; (韓國歌手)" style="color: #ff0000;">Ros&eacute;</a></span>與<a href="https://zh.wikipedia.org/wiki/Lisa_(%E6%B3%B0%E5%9C%8B%E6%AD%8C%E6%89%8B)" title="Lisa (泰國歌手)"><span style="color: #ff0000;">Lisa</span></a>共四名成員組成，而她們也在YG娛樂各自經歷了5年到7年的練習生生涯。<sup id="cite_ref-:8_2-0" class="reference"><a href="https://zh.wikipedia.org/wiki/BLACKPINK#cite_note-:8-2">[2]</a></sup></p>
 <p>BLACKPINK原定於2012年出道，且最初的女團計劃原定有九人，官方在當時除了預示著即將推出女團外，並陸續釋出練習影像及成員身份，然而到了2014年仍舊尚未出道，直至2016年中旬才正式透過官方公開了成員名單、組合名稱及出道日期<sup id="cite_ref-:8_2-1" class="reference"><a href="https://zh.wikipedia.org/wiki/BLACKPINK#cite_note-:8-2">[2]</a></sup>。2016年8月8日以單曲專輯《<span style="color: #ff0000;"><a href="https://zh.wikipedia.org/wiki/Square_One_(Black_Pink%E5%96%AE%E6%9B%B2)" title="Square One (Black Pink單曲)" style="color: #ff0000;">Square One</a></span>》雙主打曲《<a href="https://zh.wikipedia.org/wiki/%E5%8F%A3%E5%93%A8_(BLACKPINK%E6%AD%8C%E6%9B%B2)" title="口哨 (BLACKPINK歌曲)">口哨</a>》、《<a href="https://zh.wikipedia.org/wiki/Boombayah" title="Boombayah">Boombayah</a>》正式出道，8月14日登上<a href="https://zh.wikipedia.org/wiki/SBS_(%E9%9F%93%E5%9C%8B)" title="SBS (韓國)">SBS</a>《<a href="https://zh.wikipedia.org/wiki/%E4%BA%BA%E6%B0%A3%E6%AD%8C%E8%AC%A0" class="mw-redirect" title="人氣歌謠">人氣歌謠</a>》出道舞台。</p>
@@ -101,4 +176,8 @@ print(x)
 <p><iframe width="560" height="314" src="//www.youtube.com/embed/dISNgvVpWlo" allowfullscreen="allowfullscreen"></iframe></p>
 <p>2.&nbsp;&nbsp;<yt-formatted-string class="style-scope ytd-video-primary-info-renderer">BLACKPINK - '붐바야'(BOOMBAYAH)</yt-formatted-string></p>
 <p><iframe width="560" height="314" src="//www.youtube.com/embed/bwmSjveL3Lc" allowfullscreen="allowfullscreen"></iframe></p>
-<h2>Square Two</h2><p>1.&nbsp;<yt-formatted-string class="style-scope ytd-video-primary-info-renderer">BLACKPINK - '불장난 (PLAYING WITH FIRE)</yt-formatted-string></p><p><iframe width="560" height="314" src="//www.youtube.com/embed/9pdj4iJD08s" allowfullscreen="allowfullscreen"></iframe></p><p>2.&nbsp;<yt-formatted-string class="style-scope ytd-video-primary-info-renderer">BLACKPINK - 'STAY'</yt-formatted-string></p><p><iframe width="560" height="314" src="//www.youtube.com/embed/FzVR_fymZw4" allowfullscreen="allowfullscreen"></iframe></p>
+<h2>Square Two</h2>
+<p>1.&nbsp;<yt-formatted-string class="style-scope ytd-video-primary-info-renderer">BLACKPINK - '불장난 (PLAYING WITH FIRE)</yt-formatted-string></p>
+<p><iframe width="560" height="314" src="//www.youtube.com/embed/9pdj4iJD08s" allowfullscreen="allowfullscreen"></iframe></p>
+<p>2.&nbsp;<yt-formatted-string class="style-scope ytd-video-primary-info-renderer">BLACKPINK - 'STAY'</yt-formatted-string></p>
+<p><iframe width="560" height="314" src="//www.youtube.com/embed/FzVR_fymZw4" allowfullscreen="allowfullscreen"></iframe></p>

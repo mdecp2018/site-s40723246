@@ -13,6 +13,7 @@ confmenu
 	#width: 800px;
 	background: #333;
 	margin-bottom: 10px;
+	
 }
 confmenu ul
 {
@@ -52,7 +53,7 @@ ul#css3menu1,ul#css3menu1 ul{
     background-color:none;
     border-width:0;
     border-style:solid;
-    border-color:;
+    border-color:#fffffffa;
 }
 ul#css3menu1 ul{
 	visibility:hidden;
